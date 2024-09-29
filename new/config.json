@@ -1,0 +1,20 @@
+{
+    "common": {
+        "k-and-n": [[3, 4]],
+        "goal": 5
+    },
+    "minimax": {
+        "threads": 32,
+        "files-to-load-from": {
+            "winning": [],
+            "losing": []
+        }
+    },
+    "verify": {
+        "threads": 32,
+        "log-frequency": {
+            "winning": 10,
+            "losing": 20
+        }
+    }
+}
