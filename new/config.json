@@ -1,20 +1,19 @@
 {
     "common": {
-        "k-and-n": [[3, 4]],
-        "goal": 5
+        "k-and-n": [2, 3, 3, 3, 3, 3],
+        "goal": 8
     },
     "minimax": {
-        "threads": 32,
+        "threads": 30,
+        "hours-per-save": 8,
         "files-to-load-from": {
             "winning": [],
             "losing": []
         }
     },
     "verify": {
-        "threads": 32,
-        "log-frequency": {
-            "winning": 10,
-            "losing": 20
-        }
+        "verify-winning": false,
+        "verify-losing": true,
+        "threads": 30
     }
 }
